@@ -1,6 +1,6 @@
 # cracking-the-coding-interview-javascript
 
-JavaScript Solutions and code for the book "Cracking the coding interview" (6th Edition)
+ 🧁 JavaScript Solutions and code for the book "Cracking the coding interview" (6th Edition).
 
 ## How to test the code
 
