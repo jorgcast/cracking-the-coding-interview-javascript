@@ -1,0 +1,41 @@
+{
+  "name": "cracking-the-coding-interview-javascript",
+  "version": "1.0.0",
+  "description": "JavaScript solutions and code for the book Cracking the coding interview (6th edition)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgcast/cracking-the-coding-interview-javascript.git"
+  },
+  "keywords": [
+    "cracking",
+    "the",
+    "coding",
+    "interview",
+    "javascript",
+    "tech",
+    "interview",
+    "job",
+    "interview",
+    "interview"
+  ],
+  "author": "Jorge Cáster",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jorgcast/cracking-the-coding-interview-javascript/issues"
+  },
+  "homepage": "https://github.com/jorgcast/cracking-the-coding-interview-javascript#readme",
+  "scripts": {
+    "test": "mocha --require babel-register -w --watch-files src",
+    "test-chapter": "mocha './test/chapter01/*.spec.js' --require babel-register -w --watch-files src",
+    "test-question": "mocha './test/chapter01/question_1.2.spec.js' --require babel-register -w --watch-files src"
+  },
+  "dependencies": {
+    "mocha": "^8.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
