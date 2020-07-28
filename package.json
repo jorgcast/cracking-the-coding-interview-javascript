@@ -28,7 +28,7 @@
   "scripts": {
     "test": "mocha --require babel-register -w --watch-files src",
     "test-chapter": "mocha './test/chapter01/*.spec.js' --require babel-register -w --watch-files src",
-    "test-question": "mocha './test/chapter01/question_1.2.spec.js' --require babel-register -w --watch-files src"
+    "test-question": "mocha './test/chapter01/question_1.3.spec.js' --require babel-register -w --watch-files src"
   },
   "dependencies": {
     "mocha": "^8.0.1"
